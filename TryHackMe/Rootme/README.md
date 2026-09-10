@@ -174,7 +174,7 @@ SUID-enabled binaries were enumerated to identify programs running with elevated
 find / -perm -4000 -type f 2>/dev/null
 ```
 
-![SUID Binaries](screenshots/suid-binaries.png)
+![SUID Binaries](POC's/suid-binaries.png)
 
 An interesting SUID-enabled binary (python 2.7) was identified and investigated as a potential privilege escalation vector.
 
