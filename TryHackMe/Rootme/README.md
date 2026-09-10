@@ -76,7 +76,7 @@ An accessible file upload functionality was identified during web application en
 
 ![File Upload Page](POC's/File-upload_page.png)
 
-The upload functionality was tested to determine whether server-side files could be uploaded and executed.
+The upload functionality was tested using a simple PHP test file (test.php) to determine whether server-side PHP files could be uploaded and executed by the web server.
 
 ---
 
@@ -108,6 +108,8 @@ The application restricted certain file extensions. Testing revealed that the re
 .php\x00.jpg
 .inc
 ```
+
+![File Uploaded](POC's/Success-file_upload.png)
 
 ![Source](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Extension%20PHP/extensions.lst)
 
